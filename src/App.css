@@ -1,0 +1,42 @@
+.grid-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.moo-malee {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.moo-malee div{
+    background-color: rgb(235, 237, 243);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.box-something {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-something img{
+    transform-origin: center;
+    transition-property: all;
+    transition-duration: 150ms;
+    border-radius: 10px;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    color: white;
+}

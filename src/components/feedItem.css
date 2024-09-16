@@ -1,0 +1,30 @@
+.feedItem {
+    margin-top: 15px;
+    transform-origin: center;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+
+.feedItem:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.feedItem img {
+    width: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.feedItem p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
