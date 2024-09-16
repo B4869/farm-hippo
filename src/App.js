@@ -30,7 +30,7 @@ function App() {
     let newImage;
 
     if (lvl === null) {
-      newImage = '/imgs/MooDied.png';
+      newImage = '/imgs/hippoDied.png';
     } else if (lvl >= 300) {
       newImage = '/imgs/pack_icon.png';
     } else if (lvl >= 285) {
